@@ -60,6 +60,7 @@
 
 .menu>li {
     float: left;
+    display: block;
 }
 
 .menu li a {
@@ -72,6 +73,7 @@
 
 .menu li a:hover {
     background-color:#a8c657;
+    
 }
 
 .menu li ul {
@@ -80,6 +82,7 @@
     margin-right: auto;
     position: absolute;
     min-width: 140px;
+    
 }
 
 .menu li:hover>ul {
@@ -88,6 +91,7 @@
 
 .menu li ul li {
     position: relative;
+    display: block;
 }
 
 .menu li ul li ul {
@@ -103,6 +107,11 @@
     margin-inline: auto;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr
+    grid-gap: 20px;
+}
 
 .grid-col-span-2 {
     grid-column: span 2;
@@ -204,4 +213,20 @@ aside p {
 section article {
     background-color: #daebee;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+em {
+    display: block;
+    padding: 0px 100px;
+    color: #0d6759;
+    background-color: #f6fcfd;
+    
+}
+
+strong {
+    color: #29627e;
+}
+
+article>ol>li {
+    text-align: justify;
 }
