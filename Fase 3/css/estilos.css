@@ -165,6 +165,7 @@ li {
 }
 
 aside {
+    
     width: 30%;
     padding-left: .5rem;
     margin-left: .5rem;
@@ -229,4 +230,12 @@ strong {
 
 article>ol>li {
     text-align: justify;
+}
+
+audio {
+    
+    width: 400px;
+    height: 25px;
+    background-color: #3b7d97;
+    display: block;
 }
